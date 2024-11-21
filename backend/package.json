@@ -3,17 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1", 
-    "build":" cd frontend && npm install && npm run build && cd.."
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "build": "cd frontend && npm install && npm run build && cd .."
   },
-  "author": "sakshi",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "cores": "^0.8.5",
     "cors": "^2.8.5",
     "express": "^4.21.1",
     "nodemon": "^3.1.7"
-  }
+  },
+  "author": "Kareena",
+  "license": "ISC",
+  "description":""
 }
